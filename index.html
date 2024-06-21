@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изучаем JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <link type="image/x-icon" rel="shortcut icon" href="JavaScript_logo.png">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на страницу изучения JavaScript</h1>
+    </header>
+    
+    <main>
+        <section id="intro">
+            <h2>Что такое JavaScript?</h2>
+            <p>JavaScript - это язык программирования, который позволяет создавать динамические и интерактивные веб-страницы.</p>
+            <h2>Зачем он нужен?</h2>
+            <p>JavaScript используется для создания интерактивных элементов на веб-страницах, таких как кнопки, формы, анимации и многое другое.</p>
+            <h2>Для чего можно использовать?</h2>
+            <p>JavaScript может быть использован для разработки веб-приложений, игр, серверных приложений, мобильных приложений и многого другого.</p>
+            <h2>Когда он не пригодится?</h2>
+            <p>JavaScript не используется для разработки программного обеспечения, работающего вне браузера, такого как операционные системы или системные приложения.</p>
+        </section>
+        
+        <section id="demos">
+            <h2>Практические задания</h2>
+            <button id="task1Btn">Задание 1: Работа c переменными</button>
+            <button id="task2Btn">Задание 2: Простейшие операции</button>
+            <button id="startQuizBtn">Пройти тест</button>
+        </section>
+        
+        <section id="quiz" style="display: none;">
+            <h2>Тест по JavaScript</h2>
+            <div id="quizContainer"></div>
+            <button id="submitQuizBtn">Отправить ответы</button>
+            <div id="quizResult" style="display: none;"></div>
+        </section>
+    </main>
+    
+    <footer>
+        <button id="showOverlayBtn">Показать заставку</button>
+    </footer>
+
+    <div id="overlay" style="display: none;">
+        <div id="overlayContent">
+            <h1 id="overlayDate"></h1>
+            <h2 id="overlayName"></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
